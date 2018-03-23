@@ -1,0 +1,16 @@
+{
+    "name": "patrickjahns/reva-php-client",
+    "authors": [
+        {
+            "name": "Patrick Jahns",
+            "email": "github@patrickjahns.de"
+        }
+    ],
+    "require": {
+        "grpc/grpc": "^v1.3.0",
+        "google/protobuf": "^v3.3.0"
+    },
+    "autoload": {
+        "psr-4": {"": "src/"}
+    }
+}
